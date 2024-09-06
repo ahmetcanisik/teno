@@ -40,7 +40,7 @@ const { teno } = require("teno");
 teno.log("Update Available! 0.0.1 -> 0.0.2");
 ```
 
-![Teno Preview](preview.gif)
+![Teno Preview](https://raw.githubusercontent.com/ahmetcanisik/teno/main/preview.gif)
 
 <br>
 
