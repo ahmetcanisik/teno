@@ -1,6 +1,6 @@
 {
   "name": "teno",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Terminal Notifications",
   "main": "index.js",
   "repository": "https://github.com/ahmetcanisik/teno.git",
@@ -10,6 +10,22 @@
     "index.js",
     "README.md",
     "package.json"
+  ],
+  "keywords": [
+    "terminal",
+    "notifications",
+    "alerts",
+    "cli",
+    "command-line",
+    "logging",
+    "notification",
+    "terminal-alerts",
+    "node",
+    "npm",
+    "teno",
+    "development",
+    "terminal-notifications",
+    "customizable"
   ],
   "scripts": {
     "test": "node test.js",
