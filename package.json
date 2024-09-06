@@ -1,0 +1,9 @@
+{
+  "name": "teno",
+  "version": "0.0.1",
+  "description": "Terminal Notifications",
+  "main": "index.js",
+  "repository": "https://github.com/ahmetcanisik/teno.git",
+  "author": "ahmetcanisik <can.isik.business@gmail.com>",
+  "license": "MIT"
+}
