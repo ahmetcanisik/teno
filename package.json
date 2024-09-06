@@ -1,6 +1,6 @@
 {
   "name": "teno",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Terminal Notifications",
   "main": "index.js",
   "repository": "https://github.com/ahmetcanisik/teno.git",
