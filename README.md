@@ -1,2 +1,3 @@
 # Teno
-# Teno
+
+Terminal Notifications
