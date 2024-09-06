@@ -11,3 +11,8 @@ hyperlinker@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/hyperlinker/-/hyperlinker-1.0.0.tgz#23dc9e38a206b208ee49bc2d6c8ef47027df0c0e"
   integrity sha512-Ty8UblRWFEcfSuIaajM34LdPXIhbs1ajEX/BBPv24J+enSVaEVY63xQ6lTO9VRYS5LAoghIG0IDJ+p+IPzKUQQ==
+
+parcol@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/parcol/-/parcol-0.1.1.tgz#d1d50ccba96e82a298e9f505c85c08c05a37f407"
+  integrity sha512-6pNaGWwax/SFmaZw3WIopoF6dV7tBZwj6TXIAItZ+v3DOaghsqEYEZ1BZrILxSkG1E4CLgGf3t+v1h8GHk8Xzg==

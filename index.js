@@ -18,20 +18,20 @@ class Teno {
         let maxLength = 0;
         let result = "";
         
-        // En uzun satır uzunluğunu bul
+        // Find the longest line length
         lines.forEach(line => {
             parcol.pit(line);
-            const length = line.length + 4; // 2 karakter ön ve arka boşluk için
+            const length = line.length + 4; // 2 characters for leading and trailing space
             if (maxLength < length) {
                 maxLength = length;
             }
         });
 
-        // Divider ve space değerlerini hesapla
+        // Calculate divider and space values
         const divider = `~d ${this.#CONFIG.seperatorIcon}~`.repeat(maxLength);
         const space = ' '.repeat(maxLength - 2);
 
-        // Sonuç metnini oluştur
+        // Create result text
         result += `\n${divider}\n${v}${space}${v}\n`;
         lines.forEach(line => {
             const r = ' '.repeat((maxLength - (line.length + 2)) / 2);
