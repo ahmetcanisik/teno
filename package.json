@@ -1,6 +1,6 @@
 {
   "name": "teno",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Terminal Notifications",
   "main": "index.js",
   "repository": "https://github.com/ahmetcanisik/teno.git",
@@ -37,6 +37,6 @@
     "typescript": "^5.5.4"
   },
   "dependencies": {
-    "parcol": "0.1.2"
+    "parcol": "0.1.3"
   }
 }
