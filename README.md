@@ -35,7 +35,7 @@ npm install teno
 <br>
 
 ```js
-const { teno } = require("teno");
+import teno from 'teno';
 
 teno.log("Update Available! 0.0.1 -> 0.0.2");
 ```

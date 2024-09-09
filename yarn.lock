@@ -2,17 +2,25 @@
 # yarn lockfile v1
 
 
-ansi-colors@^4.1.3:
-  version "4.1.3"
-  resolved "https://registry.yarnpkg.com/ansi-colors/-/ansi-colors-4.1.3.tgz#37611340eb2243e70cc604cad35d63270d48781b"
-  integrity sha512-/6w/C21Pm1A7aZitlI5Ni/2J6FFQN8i1Cvz3kHABAAbw93v/NlvKdVOqz7CCWz/3iv/JplRSEEZ83XION15ovw==
+chalk@^5.3.0:
+  version "5.3.0"
+  resolved "https://registry.yarnpkg.com/chalk/-/chalk-5.3.0.tgz#67c20a7ebef70e7f3970a01f90fa210cb6860385"
+  integrity sha512-dLitG79d+GV1Nb/VYcCDFivJeK1hiukt9QjRNVOsUtTy1rR1YJsmpGGTZ3qJos+uw7WmWF4wUwBd9jxjocFC2w==
 
 hyperlinker@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/hyperlinker/-/hyperlinker-1.0.0.tgz#23dc9e38a206b208ee49bc2d6c8ef47027df0c0e"
   integrity sha512-Ty8UblRWFEcfSuIaajM34LdPXIhbs1ajEX/BBPv24J+enSVaEVY63xQ6lTO9VRYS5LAoghIG0IDJ+p+IPzKUQQ==
 
-parcol@^0.1.1:
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/parcol/-/parcol-0.1.1.tgz#d1d50ccba96e82a298e9f505c85c08c05a37f407"
-  integrity sha512-6pNaGWwax/SFmaZw3WIopoF6dV7tBZwj6TXIAItZ+v3DOaghsqEYEZ1BZrILxSkG1E4CLgGf3t+v1h8GHk8Xzg==
+parcol@0.1.2:
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/parcol/-/parcol-0.1.2.tgz#89937d2f47572d873ed6c9357c71b9a2d7c6b206"
+  integrity sha512-gLGHOs81ent7brCwiP3k9LHggeod1P/4bgeJ2SyH4nzBdRNZMfmocOJcOUKMViVAn2kJjXDbI7rVyo3+JRHgTg==
+  dependencies:
+    chalk "^5.3.0"
+    hyperlinker "^1.0.0"
+
+typescript@^5.5.4:
+  version "5.5.4"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.5.4.tgz#d9852d6c82bad2d2eda4fd74a5762a8f5909e9ba"
+  integrity sha512-Mtq29sKDAEYP7aljRgtPOpTvOfbwRWlS6dPRzwjdE+C0R4brX/GUyhHSecbHMFLNBLcJIPt9nl9yG5TZ1weH+Q==

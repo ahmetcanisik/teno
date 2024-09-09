@@ -1,13 +1,15 @@
 {
   "name": "teno",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Terminal Notifications",
   "main": "index.js",
   "repository": "https://github.com/ahmetcanisik/teno.git",
   "author": "ahmetcanisik <can.isik.business@gmail.com>",
+  "type": "module",
   "license": "MIT",
   "files": [
     "index.js",
+    "index.ts",
     "README.md",
     "package.json"
   ],
@@ -28,15 +30,12 @@
     "customizable"
   ],
   "scripts": {
-    "test": "node test.js",
-    "start": "node index.js"
+    "test": "tsc && node test.js"
   },
   "devDependencies": {
-    "ansi-colors": "^4.1.3",
-    "hyperlinker": "^1.0.0",
-    "parcol": "^0.1.1"
+    "typescript": "^5.5.4"
   },
-  "peerDependencies": {
-    "parcol": "0.1.1"
+  "dependencies": {
+    "parcol": "0.1.2"
   }
 }
