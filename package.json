@@ -1,12 +1,15 @@
 {
   "name": "teno",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "Terminal Notifications",
   "main": "index.js",
   "repository": "https://github.com/ahmetcanisik/teno.git",
   "author": "ahmetcanisik <can.isik.business@gmail.com>",
   "type": "module",
   "license": "MIT",
+  "scripts": {
+    "test": "tsc && node test.js"
+  },
   "files": [
     "index.js",
     "index.d.ts",

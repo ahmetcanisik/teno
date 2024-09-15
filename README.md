@@ -56,6 +56,12 @@ We welcome contributions! Please follow these steps to contribute:
 
 <br>
 
+## Goals
+- Themes section will be added to TenoConfig. And the user will be able to choose any of the existing themes.
+- Bubble theme will be added. A bubble shaped like a speech bubble.
+
+<br>
+
 ## License
 
 This project is licensed under the MIT License.
