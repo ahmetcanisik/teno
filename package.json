@@ -1,6 +1,6 @@
 {
   "name": "teno",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Terminal Notifications",
   "main": "index.js",
   "repository": "https://github.com/ahmetcanisik/teno.git",
@@ -9,7 +9,7 @@
   "license": "MIT",
   "files": [
     "index.js",
-    "index.ts",
+    "index.d.ts",
     "README.md",
     "package.json",
     "LICENSE"
@@ -30,13 +30,10 @@
     "terminal-notifications",
     "customizable"
   ],
-  "scripts": {
-    "test": "tsc && node test.js"
-  },
   "devDependencies": {
     "typescript": "^5.5.4"
   },
   "dependencies": {
-    "parcol": "0.1.3"
+    "parcol": "0.1.5"
   }
 }
